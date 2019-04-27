@@ -1,10 +1,10 @@
 import React from 'react';
-import {Counter} from "./Counter";
+import Counter from "./Counter";
 
 export class Player extends React.PureComponent {
   render() {
     // console.log('rendered', this.props);
-    const {removePlayer, id, name, score, changeScore} = this.props;
+    const {removePlayer, id, name, score} = this.props;
 
     return (
       <div className="player">
@@ -15,8 +15,10 @@ export class Player extends React.PureComponent {
         <span className="player-name">
       {name}
     </span>
-        <Counter score={score} id={id} changeScore={changeScore} />
+        <Counter score={score} id={id} />
       </div>
     );
   }
 }
+
+// Todo: removePlayer를 redux로 변경
