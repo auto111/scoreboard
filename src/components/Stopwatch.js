@@ -42,7 +42,7 @@ export class Stopwatch extends React.Component {
   // DOM이 렌더링 된 직후 : 네트워크 호출, 3rd 라이브러리 로딩
   componentDidMount() {
     this.tickRef = setInterval(this.tick, 1000);
-    console.log(this.tickRef);
+    // console.log(this.tickRef);
 
   }
 
