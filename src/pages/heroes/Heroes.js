@@ -2,9 +2,9 @@ import React from 'react';
 import axios from 'axios/index';
 import Pagination from 'rc-pagination';
 
-import "./Heroes.scss";
+import "./Heroes.scss"; // global
 import {Route, Switch} from "react-router-dom";
-import {Hero} from "../hero/Hero"; // global
+import {Hero} from "../hero/Hero";
 
 export class Heroes extends React.Component {
   constructor(props) {

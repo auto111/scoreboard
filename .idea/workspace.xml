@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67538647-e8c2-4c0f-90bc-8c56a6079a7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/baseline-face-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hero/Hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/heroes/Heroes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/heroes/Heroes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/heroes/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/heroes/Index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/heroes/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/async1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/async1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Heroes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/heroes/Heroes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/heroes/Heroes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,14 +30,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/hero/Hero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="368">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/heroes/Index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/heroes/Register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -60,10 +72,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/heroes/Heroes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="23" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#135#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,12 +83,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/baseline-face-24px.svg">
-          <provider selected="true" editor-type-id="images" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,22 +100,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Root.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/heroes/Index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Menu.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/Root.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -118,9 +126,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="ReactComponent" />
+        <option value="JavaScript File" />
         <option value="ReactClass" />
         <option value="SCSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -162,13 +170,15 @@
         <option value="$PROJECT_DIR$/js/promise3.js" />
         <option value="$PROJECT_DIR$/src/pages/Heroes.js" />
         <option value="$PROJECT_DIR$/src/pages/heroes/heroes.scss" />
-        <option value="$PROJECT_DIR$/src/pages/heroes/Heroes.scss" />
         <option value="$PROJECT_DIR$/src/pages/Menu.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/js/async1.js" />
-        <option value="$PROJECT_DIR$/src/pages/Root.js" />
-        <option value="$PROJECT_DIR$/src/pages/heroes/Heroes.js" />
         <option value="$PROJECT_DIR$/src/pages/hero/Hero.js" />
+        <option value="$PROJECT_DIR$/src/pages/Root.js" />
+        <option value="$PROJECT_DIR$/src/pages/heroes/Heroes.scss" />
+        <option value="$PROJECT_DIR$/src/pages/heroes/Index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/heroes/Heroes.js" />
+        <option value="$PROJECT_DIR$/src/pages/heroes/Index.js" />
       </list>
     </option>
   </component>
@@ -319,7 +329,7 @@
       <workItem from="1556334079358" duration="191000" />
       <workItem from="1556348186345" duration="1193000" />
       <workItem from="1556349425679" duration="7468000" />
-      <workItem from="1556930124434" duration="24557000" />
+      <workItem from="1556930124434" duration="26313000" />
     </task>
     <task id="LOCAL-00001" summary="break into module">
       <created>1555738376672</created>
@@ -370,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556946812108</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4nd(2)">
+      <created>1556957702021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556957702021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57105000" />
+    <option name="totallyTimeSpent" value="58861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,7 +477,8 @@
     <MESSAGE value="3rd day - last" />
     <MESSAGE value="페이지 라우팅 설정" />
     <MESSAGE value="4nd(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="4nd(1)" />
+    <MESSAGE value="4nd(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="4nd(2)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/thread1.js">
@@ -675,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Heroes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/baseline-face-24px.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -694,9 +705,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/async1.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,16 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -732,23 +730,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Heroes.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/hero/Hero.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="368">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/hero/Hero.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Root.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Heroes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Heroes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#135#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/heroes/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
