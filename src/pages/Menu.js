@@ -30,6 +30,7 @@ export class Menu extends React.Component {
     return (
       <div>
         <Navbar color="dark" dark expand="md" fixed="true">
+          <div className="container">
           <NavLink className="navbar-brand" to="/">reactstrap</NavLink>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -59,6 +60,7 @@ export class Menu extends React.Component {
               </UncontrolledDropdown>
             </Nav>
           </Collapse>
+          </div>
         </Navbar>
       </div>
     )

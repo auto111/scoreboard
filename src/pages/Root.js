@@ -1,8 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {Home} from "./Home";
-import {Heroes} from "./Heroes";
+import {Heroes} from "./heroes/Heroes";
 import {Menu} from "./Menu";
+import {Hero} from "./hero/Hero";
 import Scoreboard from "./scoreboard/Scoreboard";
 
 export class Root extends React.Component {
@@ -14,11 +15,13 @@ export class Root extends React.Component {
     return (
       <BrowserRouter>
         <Menu></Menu>
-        <Switch>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/heroes" component={Heroes}></Route>
-          <Route path="/scoreboard" component={Scoreboard}></Route>
-        </Switch>
+        <div className="container" style={{backgroundColor:"#fff"}}>
+          <Switch>
+            <Route path="/" exact component={Home}></Route>
+            <Route path="/heroes" component={Heroes}></Route>
+            <Route path="/scoreboard" component={Scoreboard}></Route>
+          </Switch>
+        </div>
       </BrowserRouter>
     )
   }

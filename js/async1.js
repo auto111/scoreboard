@@ -1,3 +1,8 @@
+// async 키워드가 펑션앞에 붙으면 Promise가 된다.
+// async 안에는 반드시 await가 와야 한다.
+// await 뒤에는 Promise가 온다.
+// await는 동기식으로 기다렸다가 처리한다.
+
 console.log('start');
 
 function resolveAfter2Seconds(x) {
