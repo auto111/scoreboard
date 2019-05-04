@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
-import {Player} from "./components/Player";
-import Header from "./components/Header";
-import AddFormPlayer from "./components/AddFormPlayer";
+import Header from "../../components/Header";
+import AddFormPlayer from "../../components/AddFormPlayer";
 import {connect} from "react-redux";
+import {Player} from "../../components/Player";
 
-class App extends React.Component {
+import styles from './Scoreboard.module.css';
+
+class Scoreboard extends React.Component {
   /*
   maxId = 4;
 
@@ -40,7 +41,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="scoreboard">
+      <div className={styles.scoreboard}>
         {/* {title: 'My Scoreboard', totalPlayers: 11} */}
         <Header title="My Scoreboard" players={this.props.players} />
 
@@ -61,4 +62,4 @@ const mapStateToProps = (state) => ({
   players: state.playerReducer.players
 });
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(Scoreboard);
